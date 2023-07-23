@@ -5,7 +5,7 @@ function getFormvalue() {
 	alert(`${first_name} ${last_name}`);
 	
 }
-const submit_button=document.getElementsByTagName('form')[2];
+const submit_button=document.querySelector('input[type="submit"]');
 submit_button.addEventListener('click', function event()
 {
 	event.preventDefault();
