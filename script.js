@@ -6,7 +6,7 @@ function getFormvalue() {
 	
 }
 const submit_button=document.getElementsByTagName('form')[2];
-submit_button.addEventListener('click', function event()
+submit_button.addEventListener('submit', function event()
 {
 	event.preventDefault();
 	getFormvalue();
